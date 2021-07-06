@@ -1,4 +1,4 @@
-const GOOGLE_API_KEY = 'AIzaSyDMz_hbb1W8F2E_Oe8csa1wAfY5gjg4atM';
+const GOOGLE_API_KEY = 'Your google api key here. (Register in https://developers.google.com/maps)';
 
 export async function getAddressFromCoords(coords) {
     const { lat, lng } = coords;
